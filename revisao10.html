@@ -7,10 +7,17 @@
 
     <script>
       
-    let lista = [10, 20, 30];
-    lista.push(40);
+    let lista = [10, 20, 30, 40, 50];
+    let ordenado = true
 
-    console.log(lista);
+
+    for (let i = 0; i < lista.length; i++){
+       if( lista[i] = lista[i+1]){
+        ordenado = false;
+        break;
+       }
+    }
+    console.log(ordenado)
    
     </script>
 </head>
